@@ -1,0 +1,81 @@
+body{
+  background-color: #ebe7e2 ;
+  font-family: 'PT Serif', serif;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  padding: 25px;
+}
+
+h1,h2,h3 {
+  color:#cb9049;
+  font-family: 'PT Serif', serif;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+a {
+  color:#65451F;
+  text-decoration: none;
+  color: white;
+  background-color: #BA6E6E;
+  padding: 15px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+a.hover{
+  background-color: #A36060;
+  transition: 0.3s ease;
+}
+
+.card {
+  background-color: white;
+  padding: 50px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);}
+
+  li {
+    display: inline;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+    font-size: 20px;
+    color :none;
+  }
+
+  .list_in_line {
+    color :none;
+    padding: 0px 20px;
+  }
+
+  .container {
+    width: 700px;
+    margin-inline: auto;
+  }
+  .img-circle {
+    border-radius: 60%;
+  }
+
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
